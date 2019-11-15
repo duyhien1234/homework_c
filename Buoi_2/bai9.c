@@ -7,7 +7,7 @@ void main(){
 	nhap n va tinh s
 	*/
 	int i, n;
-	float S = 0;
+	float S = 1;
 	printf("nhap n");
 	scanf("%d", &n);
 	i=1;
@@ -15,7 +15,7 @@ void main(){
 		S=S * i;
 		i++;
 	}
-	printf("in ra man hinh S = %f", S);
+	printf("in ra man hinh S = %f", sum);
 	
 	
 	

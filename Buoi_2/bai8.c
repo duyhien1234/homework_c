@@ -12,7 +12,7 @@ void main(){
 	scanf("%d", &n);
 	i=1;
 	while(i<=n){
-		S=S + (float) (2*i+1)/(2*i+1);
+		S=S + (float) 1;
 		i++;
 	}
 	printf("in ra man hinh S = %f", S);
